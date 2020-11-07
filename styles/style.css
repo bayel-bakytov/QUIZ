@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.pass-test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pass-test__content {
+  height: 100vh;
+}
+
+.button {
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+  padding: 14px 20px;
+}
+
+.button--primary {
+  color: white;
+  box-shadow: 0 2px 9px black;
+  background-color: #ebe100;
+}
